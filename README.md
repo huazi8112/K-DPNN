@@ -2,7 +2,6 @@
 
 Neural prediction of stationary probability densities and gene regulatory landscapes using weighted two-dimensional Gaussian mixtures.
 
-[中文说明](README.zh-CN.md) · [Data and checkpoints](DATA.md) · [Reproducibility notes](REPRODUCIBILITY.md)
 
 ## Included models
 
