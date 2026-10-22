@@ -1,0 +1,32 @@
+# Python / Numba / Jupyter caches
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Local environments and editor files
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated simulation datasets and training/evaluation output
+**/density_results_*/
+**/trajectory_results_*/
+**/saved_models*/
+**/results/
+**/figures/
+**/evaluation/
+**/hellinger_per_sample_*/
+*.npy
+*.npz
+*.log
+
+# The small parameter CSVs, stable-state MAT inputs, and three main PTH
+# checkpoints are intentional repository inputs: do not ignore their types
+# globally. The K_select component has additional local output rules.
