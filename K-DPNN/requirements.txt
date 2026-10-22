@@ -1,0 +1,13 @@
+# Dependencies used by the source notebooks and K-selection scripts.
+# This is an installation list, not an exact lock of the archived experiments.
+numpy
+pandas
+scipy
+matplotlib
+torch
+numba
+scikit-learn
+threadpoolctl
+tqdm
+jupyterlab
+ipykernel
